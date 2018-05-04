@@ -36,10 +36,6 @@
 			return trim($sql);
 
 		}
-
-		private function sqlSelect(){
-		}
-
 		private function sqlDelete($dados){
 
 			$sql = '';
