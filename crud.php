@@ -38,9 +38,6 @@
 
 		}
 
-		private function sqlSelect(){
-		}
-
 		private function sqlDelete($dados,$tabela){
 
 			$sql = '';
