@@ -137,7 +137,7 @@
 			$stmt = $this->pdo->prepare("SELECT * FROM ".$tabela);
 			$stmt->execute();
 			
-			while($row = $stmt->fetch()){
+			while($row = $stmt->fetchAll()){
 				print_r($row);
 			}
 			
