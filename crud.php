@@ -134,7 +134,7 @@
 		}
 		public function select($tabela){
 			$this->table = $tabela;
-			$stmt = $this->pdo->prepare("SELECT * FROM ".$this->table);
+			$stmt = $this->pdo->prepare("SELECT * FROM ".$tabela);
 			$stmt->execute();
 			
 			while($row = $stmt->fetch()){
